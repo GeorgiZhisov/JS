@@ -1,0 +1,112 @@
+
+
+body {
+  background-image: url("photo.jpg");
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.6;
+}
+
+header {
+  background: #030303;
+  
+  color: #fff;
+  padding: 20px 0;
+  
+  display: flex;
+  justify-content: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-weight: 1000;
+  font-size: x-large  ;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+  
+  
+  
+}
+
+nav ul li a {
+  color: #ffffff;
+  display: flex;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  
+}
+
+main {
+  padding: 40px;
+
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #fffdfd;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+form input{
+  margin-bottom: 10px;
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 20px;
+}
+form textarea{
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+form button{
+  background-color: white;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+form button :hover{
+  opacity: 80%;
+  cursor: pointer;
+}
